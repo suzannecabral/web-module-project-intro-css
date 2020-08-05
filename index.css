@@ -51,12 +51,12 @@ nav {
 
 nav a {
   color: white;
-  display:inline-block;
+  display: inline-block;
   text-align: center;
-  vertical-align:middle;
+  vertical-align: middle;
   border-radius: 10px;
-  height:50%;
-  width:10em;
+  height: 50%;
+  width: 10em;
   margin: 1em;
   padding: 10px;
 }
@@ -79,7 +79,7 @@ nav a {
 
 .darksand {
   background-color: #ddb9a3;
-  color:white;
+  color: white;
 }
 
 /* ============================ */
@@ -92,10 +92,9 @@ nav a {
   display: inline-block;
 }
 
-}
 div .summary-text {
-  text-align:center;
-  display:block;
+  text-align: center;
+  display: block;
 }
 
 
@@ -117,7 +116,7 @@ div .summary-text {
 /* Footer  */
 /* ============================ */
 
-footer img{
-  object-fit:100%;
-  object-position:cover;
+footer img {
+  object-fit: 100%;
+  object-position: cover;
 }
