@@ -1,20 +1,35 @@
-
 /*Brit's Reset*/
 
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-  }
-  html{
-    font-size:62.5%;
-  }
-  body{
-    line-height:1;
-    font-size:1.5rem;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border:1px solid gray;
+  text-decoration:none;
+}
 
-  /*General*/
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
 
+/* General */
+body {
+  font-size: 1.5rem;
+}
 
+/* Nav */
+
+nav a {
+  color:white;
+}
+.orange {
+  background-color:#FF764E;
+}
+.lightblue {
+  background-color:#5ED3EB;
+}
+.yellow {
+  background-color:#FFCD69;
+}
