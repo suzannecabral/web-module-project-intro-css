@@ -1,3 +1,4 @@
+/* ============================ */
 /*Brit's Reset*/
 
 * {
@@ -5,31 +6,92 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border:1px solid gray;
-  text-decoration:none;
+  border: 1px solid gray;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
 html {
   font-size: 62.5%;
   line-height: 1;
 }
-
+/* ============================ */
 /* General */
+/* ============================ */
+
 body {
   font-size: 1.5rem;
 }
 
-/* Nav */
+h1,
+h2,
+p {
+  color: black;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+h2,
+p, a {
+  font-family: 'Roboto Mono', monospace;
+}
+/* ============================ */
+/* Nav: both */
+/* ============================ */
+
+nav {
+  height:5vh;
+
+}
 
 nav a {
-  color:white;
+  color: white;
+  display:inline-block;
+  width: 15%;
+  text-align:center;
+  border-radius:20%;
+  height:100%;
 }
+
 .orange {
-  background-color:#FF764E;
+  background-color: #FF764E;
 }
+
 .lightblue {
-  background-color:#5ED3EB;
+  background-color: #5ED3EB;
 }
+
 .yellow {
-  background-color:#FFCD69;
+  background-color: #FFCD69;
+}
+
+/* ============================ */
+/* Header */
+/* ============================ */
+
+.top-summary img {
+  width:30%;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.top-summary h1, h2, p{
+  display:inline-block;
+  text-align:center;
+}
+
+/* ============================ */
+/* Facts Section */
+/* ============================ */
+
+.fact {
+  max-width:35%;
+  text-align:center;
+  margin:5% auto;
+}
+
+.fact img {
+  width:50%;
 }
