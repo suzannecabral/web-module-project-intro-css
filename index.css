@@ -18,7 +18,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-color: white;
+  background-color:white;
 }
 
 /* ============================ */
@@ -40,6 +40,7 @@ a {
 
 article {
   padding: 2% 5%;
+  height:100%;
 }
 
 strong {
@@ -47,7 +48,7 @@ strong {
 }
 
 /* ============================ */
-/* Nav: both  & color classes */
+/* Nav (Both)  */
 /* ============================ */
 
 nav {
@@ -68,12 +69,20 @@ nav a {
   /* margin:0 5% 0 5%; */
 }
 
+nav a.lightblue {
+  margin:0 19% 0 19%;
+}
 div.justified-boxes {
   margin: 0 auto;
+  padding:0 10%;
   width:99%;
   display:block;
   text-align:center;
 }
+
+/* ============================ */
+/* Colors */
+/* ============================ */
 
 .orange {
   background-color: #FF764E;
@@ -96,7 +105,7 @@ div.justified-boxes {
 }
 
 /* ============================ */
-/* Header */
+/* Header: Tagline */
 /* ============================ */
 
 .top-tagline {
@@ -130,6 +139,10 @@ div .tagline-text {
   /* padding: 0 0 0 0; */
   vertical-align:top;
 }
+
+/* ============================ */
+/* Header: Description Text */
+/* ============================ */
 
 .description {
   font-size: 2.2rem;
@@ -167,10 +180,10 @@ div .tagline-text {
 /* Footer  */
 /* ============================ */
 
-
 footer img {
+  background-color:white;
   object-fit:cover;
   width:100%;
-  height:100%;
-  object-position: 0 300px;
+  overflow:hidden;
+  object-position:0 350px;
 }
