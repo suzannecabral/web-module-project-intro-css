@@ -44,18 +44,18 @@ Once your repository is set up, practice what you learned today to style the sit
 - [x] Color the background of the main text body with `#DDB9A3`
 - [x] Color the background of the footer with `#F9E7DC`
 - [x] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
-- [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+- [x] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [x] A round image in the header
   - [x] Round corners on navigation and footer items
   - [x] Header image and text side by side
   - [x] Centered content and margins around content
-  - [ ] Footer image positioning
+  - [x] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
 
 ### Task 2b: Exit Ticket
 
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/DyGu5BAvk3m7jHqoz/AiMA3XzNTYpeQH).
+- [x] Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/DyGu5BAvk3m7jHqoz/AiMA3XzNTYpeQH).
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
